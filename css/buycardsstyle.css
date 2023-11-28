@@ -1,0 +1,7 @@
+#main-container{
+    display: grid;
+    grid-template-areas:
+    'nav nav nav nav nav nav'
+    'side c1 c2 c3 c4 side'
+    'side c5 c6 c7 c8 side'
+}

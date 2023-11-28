@@ -1,0 +1,8 @@
+#main-container{
+    display: grid;
+    grid-template-areas:
+    'nav nav'
+    'hd hd'
+    'sc1 sc2'
+    'ft ft'
+}
