@@ -1,3 +1,6 @@
+/*
+main color: #8BC34A
+*/
 #main-container{
     display: grid;
     grid-template-areas:
@@ -5,4 +8,20 @@
     'hd hd'
     'sc1 sc2'
     'ft ft'
+}
+
+nav{
+    grid-area: nav;
+}
+
+header{
+    grid-area: hd;
+}
+
+.section1{
+    grid-area: sc1;
+}
+
+.section2{
+    grid-area: sc2;
 }
