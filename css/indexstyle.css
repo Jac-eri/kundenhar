@@ -1,5 +1,7 @@
 /*
 main color: #8BC34A
+secondary color: #1f8b1796
+third color: #2fa334
 */
 @import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Noto+Sans+Runic&display=swap');
 h1{
@@ -47,14 +49,14 @@ header{
     grid-area: sc1;
     margin: 5px;
     background-color: #8BC34A;
+    align-items: center;
+    justify-content: center;
 }
 
 .section2{
     grid-area: sc2;
     margin: 5px;
     background-color: #8BC34A;
-}
-
-#image1{
-
+    align-items: center;
+    justify-content: center;
 }
