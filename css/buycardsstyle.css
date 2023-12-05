@@ -1,6 +1,8 @@
 /*
 main color: #8BC34A
 */
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Noto+Sans+Runic&display=swap');
+
 #main-container{
     display: grid;
     grid-template-areas:
