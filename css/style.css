@@ -1,0 +1,171 @@
+/*
+main color: #8BC34A
+secondary color: #6C8252
+*/
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Noto+Sans+Runic&display=swap');
+h1{
+    font-family: 'Dhurjati', sans-serif;
+}
+h2{
+    font-family: 'Dhurjati', sans-serif;
+}
+p{
+    font-family: 'Dhurjati', sans-serif;
+}
+
+#main-container{
+    display: grid;
+    grid-template-areas:
+    'nav nav'
+    'hd hd'
+    'sc1 sc2'
+    'ft ft';
+    grid-template-columns: auto;
+    grid-template-rows: 10vh 90vh 70vh 30vh;
+}
+
+nav{
+    grid-area: nav;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #8BC34A;
+}
+
+#title{
+    display: flex;
+    flex-direction: row;
+    background-color: #8BC34A;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    font-size: 250%;
+}
+
+#title>h1,p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.index-header{
+    grid-area: hd;
+    display:  flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(../img/forest.jpg);
+}
+
+.section1{
+    grid-area: sc1;
+    margin: 5px;
+    background-color: #6C8252;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2{
+    grid-area: sc2;
+    margin: 5px;
+    background-color: #6C8252;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    grid-area: ft;
+    background-color: #3F423A;
+}
+
+#main-container2{
+    display: grid;
+    grid-template-areas:
+    'nav nav nav nav'
+    'c1 c2 c3 c4'
+    'c5 c6 c7 c8'
+    'ft ft ft ft';
+    grid-template-columns: auto;
+    grid-template-rows: 10vh 45vh 45vh 30vh;
+    /* display: flex;
+    justify-content: space-evenly;
+    align-content: space-around; */
+    background-color: #6C8252;
+}
+
+
+#card1{
+    grid-area: c1;
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+}
+
+#card2{
+    grid-area: c2; 
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+}
+
+#card3{
+    grid-area: c3;
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+}
+
+#card4{
+    grid-area: c4;
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+}
+
+#card5{
+    grid-area: c5;
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+}
+
+#card6{
+    grid-area: c6;
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+}
+
+#card7{
+    grid-area: c7;
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+}
+
+#card8{
+    grid-area: c8;
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+}
+
+#main-container3{
+    display: grid;
+    grid-template-areas:
+    'nav'
+    'hd'
+    'sc'
+}
+
+#inner-container{
+    display: grid;
+    grid-template-areas:
+    'sc3 sc4'
+    'sc5 sc6'
+    'sc7 sc8'
+    'sc9 sc10'
+    'sc11 sc12'
+    'sc13 sc14'
+    'sc15 sc16'
+}
