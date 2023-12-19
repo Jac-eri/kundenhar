@@ -13,6 +13,11 @@ p{
     font-family: 'Dhurjati', sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+    margin: 0px;
+}
+
 #main-container{
     display: grid;
     grid-template-areas:
@@ -47,6 +52,21 @@ nav{
 #title>h1,p{
     margin: 0px;
     padding: 0px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+#image1{
+    width: 796px;
+    height: 448px;
+}
+
+#image2{
+    width: 796px;
+    height: 448px;
 }
 
 .index-header{
@@ -87,9 +107,6 @@ footer{
     'ft ft ft ft';
     grid-template-columns: auto;
     grid-template-rows: 10vh 45vh 45vh 30vh;
-    /* display: flex;
-    justify-content: space-evenly;
-    align-content: space-around; */
     background-color: #6C8252;
 }
 
@@ -150,16 +167,24 @@ footer{
     padding: 10px;
 }
 
+#cardimage{
+    height: 200px;
+    width:  250px;
+}
+
 #main-container3{
     display: grid;
+    grid-template-rows: 10vh 20vh 70vh 30vh;
     grid-template-areas:
     'nav'
     'hd'
     'sc'
+    'ft'
 }
 
 #inner-container{
     display: grid;
+    grid-template-columns: 30vw 70vw;
     grid-template-areas:
     'sc3 sc4'
     'sc5 sc6'
@@ -168,4 +193,18 @@ footer{
     'sc11 sc12'
     'sc13 sc14'
     'sc15 sc16'
+}
+
+#title2>h1{
+    background-color: #6C8252;
+}
+
+.sellsection1{
+    background-color: #8BC34A;
+    margin: 5px;
+}
+
+.sellsection2{
+    background-color: #6C8252;
+    margin: 5px;
 }
