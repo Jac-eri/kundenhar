@@ -197,14 +197,16 @@ footer{
 
 #title2>h1{
     background-color: #6C8252;
+    height: 18vh;
+    margin: 1vh 0px;
 }
 
 .sellsection1{
     background-color: #8BC34A;
-    margin: 5px;
+    margin: 0px 5px;
 }
 
 .sellsection2{
     background-color: #6C8252;
-    margin: 5px;
+    margin: 0px 5px;
 }
