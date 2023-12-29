@@ -1,6 +1,7 @@
 /*
 main color: #8BC34A
 secondary color: #6C8252
+footer color: #3F423A
 */
 @import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Noto+Sans+Runic&display=swap');
 h1{
@@ -174,7 +175,7 @@ footer{
 
 #main-container3{
     display: grid;
-    grid-template-rows: 10vh 20vh 70vh 30vh;
+    grid-template-rows: 10vh 8vh 82vh 30vh;
     grid-template-areas:
     'nav'
     'hd'
@@ -197,16 +198,18 @@ footer{
 
 #title2>h1{
     background-color: #6C8252;
-    height: 18vh;
+    height: 6vh;
     margin: 1vh 0px;
 }
 
 .sellsection1{
     background-color: #8BC34A;
-    margin: 0px 5px;
+    height: 9.25vh;
+    margin: 0.5vh 0.5vh;
 }
 
 .sellsection2{
     background-color: #6C8252;
-    margin: 0px 5px;
+    height: 9.25vh;
+    margin: 0.5vh 0.5vh;
 }
