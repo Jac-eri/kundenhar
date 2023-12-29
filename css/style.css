@@ -97,6 +97,7 @@ nav{
 footer{
     grid-area: ft;
     background-color: #3F423A;
+    color: #F9F9F9;
 }
 
 #main-container2{
@@ -212,4 +213,9 @@ footer{
     background-color: #6C8252;
     height: 9.25vh;
     margin: 0.5vh 0.5vh;
+}
+
+#EcoMarketLogo{
+    width: 70px;
+    height: 80px;
 }
